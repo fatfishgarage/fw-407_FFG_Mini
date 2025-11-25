@@ -1,81 +1,273 @@
 pins:
+
+  - id: B15
+    class: outputs
+    ts_name: Injector 1 (PB15)
+    function: Injector 1
+    color: pink
+    type: inj
+    
   - id: B14
     class: outputs
-    ts_name: B14 Output
+    ts_name: Injector 2 (PB14)
+    function: Injector 2
+    color: pink
+    type: inj
 
+  - id: B12
+    class: outputs
+    ts_name: Injector 3 (PB12)
+    function: Injector 3
+    color: pink
+    type: inj
+
+  - id: B13
+    class: outputs
+    ts_name: Injector 4 (PB13)
+    function: Injector 4
+    color: pink
+    type: inj
+
+  - id: A8
+    class: outputs
+    ts_name: VVT 2 (PA8)
+    function: VVT 2
+    color: white
+    type: LS_pwm
+
+  - id: C10
+    class: outputs
+    ts_name: Coil 1 (PC10)
+    function: Coil 1
+    color: orange
+    type: ign
+
+  - id: C11
+    class: outputs
+    ts_name: Coil 2 (PC11)
+    function: Coil 2
+    color: orange
+    type: ign
+
+  - id: C13
+    class: outputs
+    ts_name: Coil 3 (PC13)
+    function: Coil 3
+    color: orange
+    type: ign
+
+  - id: C13
+    class: outputs
+    ts_name: Coil 4 (PC13)
+    function: Coil 4
+    color: orange
+    type: ign
+
+  - id: C8
+    class: outputs
+    ts_name: Idle 1 (PC8)
+    function: Idle 1
+    color: white
+    type: LS_pwm
+
+  - id: C9
+    class: outputs
+    ts_name: Idle 2 (PC9)
+    function: Idle 2
+    color: white
+    type: LS_pwm
+
+  - id: D10
+    class: outputs
+    ts_name: Out 1 (PD10)
+    function: Out 1
+    color: white
+    type: LS_pwm
+
+  - id: A10
+    class: outputs
+    ts_name: VVT 1 (PA10)
+    function: VVT 1
+    color: white
+    type: LS_pwm
+
+  - id: C4
+    class: outputs
+    ts_name: Boost (PC4)
+    function: Boost
+    color: white
+    type: LS_pwm
+
+  - id: C5
+    class: outputs
+    ts_name: Fuel Pump (PC5)
+    function: Fuel Pump
+    color: white
+    type: LS
+
+  - id: B8
+    class: outputs
+    ts_name: Can RX (PB8)
+    function: Can RX
+    color: purple
+    type: can
+
+  - id: B9
+    class: outputs
+    ts_name: Can TX (PB9)
+    function: Can TX
+    color: purple
+    type: can
+
+  - id: B5
+    class: outputs
+    ts_name: SPI1 MOSI (PB5)
+    function: SPI1 MOSI
+    color: grey
+    type: spi
+
+  - id: B4
+    class: outputs
+    ts_name: SPI1 MISO (PB4)
+    function: SPI1 MISO
+    color: grey
+    type: spi
+
+  - id: B3
+    class: outputs
+    ts_name: SPI1 SCK (PB3)
+    function: SPI1 SCK
+    color: grey
+    type: spi
+
+  - id: A15
+    class: outputs
+    ts_name: Tacho-Out 1 (PA15)
+    function: Tacho-Out 1
+    color: white
+    type: LS_pwm
+
+  - id: D15
+    class: outputs
+    ts_name: Tacho-Out 2 (PD15)
+    function: Tacho-Out 2
+    color: white
+    type: LS_pwm
+
+  - id: B10
+    class: outputs
+    ts_name: TB Dir1 (PB10)
+    function: TB Dir1
+    color: red
+    type: etb
+
+  - id: C7
+    class: outputs
+    ts_name: TB Control (PC7)
+    function: TB Control
+    color: red
+    type: etb
+
+  - id: C6
+    class: outputs
+    ts_name: TB Disable (PC6)
+    function: TB Disable
+    color: red
+    type: etb,
+    
   - id: EFI_ADC_0
     class: analog_inputs
 # getAdcChannelBrainPin in 'stm32_adc.cpp' says EFI_ADC_0 is PA0
-    ts_name: On-board Battery Sense (A0)
+    ts_name: Air Temp (PA0)
+    color: green
+    type: AnT
 
   - id: EFI_ADC_1
     class: analog_inputs
-    ts_name: Analog Inputs 1 (A1)
+    ts_name: Coolant Temp (PA1)
+    color: green
+    type: AnT
 
   - id: EFI_ADC_2
     class: analog_inputs
-    ts_name: Analog Inputs 2 (A2)
+    ts_name: TPS Front (PA2)
+    color: green
+    type: AnV
 
   - id: EFI_ADC_3
     class: analog_inputs
-    ts_name: Analog Inputs 3 (A3)
+    ts_name: On-board MAP (PA3)
+    color: green
+    type: AnV
 
   - id: EFI_ADC_4
     class: analog_inputs
-    ts_name: Analog Inputs 4 (A4)
+    ts_name: Battery (PA4)
+    color: green
+    type: AnV
 
   - id: EFI_ADC_5
     class: analog_inputs
-    ts_name: On-board MAP (A5)
-
-  - id: EFI_ADC_6
-    class: analog_inputs
-    ts_name: Analog Inputs 6 (A6)
-
-  - id: EFI_ADC_7
-    class: analog_inputs
-    ts_name: Analog Inputs 7 (A7)
+    ts_name: PPS2 (PA5)
+    color: green
+    type: AnV
 
   - id: EFI_ADC_8
     class: analog_inputs
-    ts_name: On-board BARO (B0)
+    ts_name: O2 (PB0)
+    color: green
+    type: AnV
 
-  - id: EFI_ADC_9
+  - id: EFI_ADC_2
     class: analog_inputs
-    ts_name: Analog Inputs 9 (B1)
+    ts_name: TPS1 (PA2)
+    color: green
+    type: AnV
 
-  - id: EFI_ADC_10
+  - id: EFI_ADC_7
     class: analog_inputs
-    ts_name: Analog Inputs 10 (C0)
+    ts_name: PPS1 (PA7)
+    color: green
+    type: AnV
 
-  - id: EFI_ADC_11
+  - id: EFI_ADC_6
     class: analog_inputs
-    ts_name: Primary On-board O2 (C1)
+    ts_name: TPS2 (PA6)
+    color: green
+    type: AnV
 
-  - id: EFI_ADC_12
-    class: analog_inputs
-    ts_name: Secondary On-board O2 (C2)
-
-  - id: EFI_ADC_13
-    class: analog_inputs
-    ts_name: Analog Inputs 13 (C3)
-
-  - id: EFI_ADC_14
-    class: analog_inputs
-    ts_name: Analog Inputs 14 (C4)
-
-  - id: EFI_ADC_15
-    class: analog_inputs
-    ts_name: Analog Inputs 15 (C5)
-
-  - id: [E2, E2]
+  - id: [C2, C2]
     class: [switch_inputs, event_inputs]
-    ts_name: VR/Hall 1 (E2)
+    ts_name: Table Switch (PC2)
+    color: blue
+    type: SWIN
 
-  - id: [E3, E3]
+  - id: [C3, C3]
     class: [switch_inputs, event_inputs]
-    ts_name: VR/Hall 2 (E3)
+    ts_name: Launch-In (PC3)
+    color: blue
+    type: SWIN
 
-  - id: [E4, E4]
+  - id: [C1, C1]
     class: [switch_inputs, event_inputs]
-    ts_name: VR/Hall 3 (E4)
+    ts_name: Digital_IN_3 (PC1)
+    color: blue
+    type: SWIN
+
+  - id: [C0, C0]
+    class: [switch_inputs, event_inputs]
+    ts_name: Digital_IN_3 (PC0)
+    color: blue
+    type: SWIN
+
+  - id: [B7, B7]
+    class: [switch_inputs, event_inputs]
+    ts_name: VR / Hall 1 (PB7)
+    color: blue
+    type: Trig
+
+  - id: [B6, B6]
+    class: [switch_inputs, event_inputs]
+    ts_name: VR / Hall 2 (PB6)
+    color: blue
+    type: Trig
