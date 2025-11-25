@@ -59,6 +59,10 @@ ifndef IS_RE_BOOTLOADER
 #DDEFS += -DHAL_USE_EEPROM=TRUE -DSTM32_I2C_USE_I2C3=TRUE
 endif
 
+# EGT chip
+#un-comment to enable
+#DDEFS += -DEFI_MAX_31855=TRUE
+
 # This board has some Accelerometer onboard
 # DDEFS += -DEFI_ONBOARD_MEMS=TRUE
 
@@ -73,3 +77,7 @@ endif
 # And some custom board have LIS2DW12TR
 # EFI_ONBOARD_MEMS_LIS2DW12 = yes
 # DDEFS += -DLIS2DW12_USE_SPI=TRUE -DLIS2DW12_SHARED_SPI=TRUE
+
+#see main repo for details on this any many other optional subsystems. We have too many, one has to choose what fits into his choice of stm32
+#DDEFS += -DEFI_ONBOARD_MEMS=TRUE
+
