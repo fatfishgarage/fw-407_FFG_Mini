@@ -16,7 +16,7 @@ static void setIgnitionPins() {
 }
 
 static void setEtbConfig() {
-	// VNH7070 driver
+	// TLE9201 driver
 	// This chip has 3 control pins:
 	// DIR1 - direction of the motor
 	// DIR2 - NA
