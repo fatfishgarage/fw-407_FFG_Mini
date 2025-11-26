@@ -1,5 +1,5 @@
 ! example of .ini file templating option
-#define ts_show_etb_pins false
+#define ts_show_etb_pins true
 
 
 ! example of table size override
