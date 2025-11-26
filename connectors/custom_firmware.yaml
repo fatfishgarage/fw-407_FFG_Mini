@@ -77,13 +77,6 @@ pins:
     color: white
     type: LS_pwm
 
-  - id: D10
-    class: outputs
-    ts_name: Out 1 (PD10)
-    function: Out 1
-    color: white
-    type: LS_pwm
-
   - id: A10
     class: outputs
     ts_name: VVT 1 (PA10)
