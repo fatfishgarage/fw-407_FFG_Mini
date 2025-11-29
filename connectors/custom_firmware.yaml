@@ -49,9 +49,9 @@ pins:
     color: orange
     type: ign
 
-  - id: C13
+  - id: C12
     class: outputs
-    ts_name: Coil 3 (PC13)
+    ts_name: Coil 3 (PC12)
     function: Coil 3
     color: orange
     type: ign
