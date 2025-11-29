@@ -181,12 +181,6 @@ pins:
     color: green
     type: AnT
 
-  - id: EFI_ADC_2
-    class: analog_inputs
-    ts_name: TPS Front (PA2)
-    color: green
-    type: AnV
-
   - id: EFI_ADC_3
     class: analog_inputs
     ts_name: On-board MAP (PA3)
