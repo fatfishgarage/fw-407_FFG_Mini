@@ -4,6 +4,52 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
+	Gpio::B15, // Injector 1 (PB15)
+	Gpio::B14, // Injector 2 (PB14)
+	Gpio::B12, // Injector 3 (PB12)
+	Gpio::B13, // Injector 4 (PB13)
+	Gpio::C5, // Fuel Pump (PC5)
+	Gpio::A8, // VVT 2 (PA8)
+	Gpio::C10, // Coil 1 (PC10)
+	Gpio::C11, // Coil 2 (PC11)
+	Gpio::C12, // Coil 3 (PC12)
+	Gpio::C13, // Coil 4 (PC13)
+	Gpio::C8, // Idle 1 (PC8)
+	Gpio::C9, // Idle 2 (PC9)
+	Gpio::A10, // VVT 1 (PA10)
+	Gpio::C4, // Boost (PC4)
+	Gpio::B8, // Can RX (PB8)
+	Gpio::B9, // Can TX (PB9)
+	Gpio::B5, // SPI1 MOSI (PB5)
+	Gpio::B4, // SPI1 MISO (PB4)
+	Gpio::B3, // SPI1 SCK (PB3)
+	Gpio::A15, // Tacho-Out 1 (PA15)
+	Gpio::D15, // Tacho-Out 2 (PD15)
+	Gpio::B10, // TB Dir1 (PB10)
+	Gpio::C7, // TB Control (PC7)
+	Gpio::C6, // TB Disable (PC6)
+// "Injector 1 (PB15)",
+// "Injector 2 (PB14)",
+// "Injector 3 (PB12)",
+// "Injector 4 (PB13)",
+// "Fuel Pump (PC5)",
+// "VVT 2 (PA8)",
+// "Coil 1 (PC10)",
+// "Coil 2 (PC11)",
+// "Coil 3 (PC12)",
+// "Coil 4 (PC13)",
+// "Idle 1 (PC8)",
+// "Idle 2 (PC9)",
+// "VVT 1 (PA10)",
+// "Boost (PC4)",
+// "Can RX (PB8)",
+// "Can TX (PB9)",
+// "SPI1 MOSI (PB5)",
+// "SPI1 MISO (PB4)",
+// "SPI1 SCK (PB3)",
+// "Tacho-Out 1 (PA15)",
+// "Tacho-Out 2 (PD15)",
+// "TB Dir1 (PB10)",
+// "TB Control (PC7)",
+// "TB Disable (PC6)",
 }
