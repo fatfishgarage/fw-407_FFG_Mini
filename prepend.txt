@@ -1,6 +1,39 @@
 ! example of .ini file templating option
 #define ts_show_etb_pins true
+#define ts_show_analog_divider true
+#define ts_show_spi true
+#define ts_show_sd_card true
+#define ts_show_can_pins true
+#define ts_show_tunerstudio_port true
+#define ts_show_main_relay true
+#define ts_show_main_relay_microRusEFI_message false
+#define ts_show_can2 true
+#define ts_show_software_knock true
+#define ts_show_hardware_simulator true
+#define ts_show_sd_pins true
+#define ts_show_vbatt true
+#define ts_show_clt_iat_pullup true
+#define ts_show_tps_sent true
+#define ts_show_inj_diag true
+#define ts_show_output_diag true
+#define ts_show_tle8888 false
+#define ts_show_tcu false
+#define ts_show_gdi false
+#define ts_show_ign_key_analog_input true
+#define ts_show_ign_key_switch true
+#define ts_show_inj_diag true
 
+#define ts_show_cylinder_9 false
+#define ts_show_cylinder_10 false
+#define ts_show_cylinder_11 false
+#define ts_show_cylinder_12 false
+
+#define ts_show_spi2_enable false
+#define ts_show_spi2_pins false
+#define ts_show_spi3_pins false
+#define ts_show_stepper_push_pull true
+
+! #define LUA_SCRIPT_SIZE 10000
 
 ! example of table size override
 #define IGN_TRIM_SIZE 8
