@@ -621,6 +621,9 @@ bool EtbController::checkStatus() {
 		if (isTpsError && !hadTpsError) {
 			etbTpsErrorCounter++;
 		}
+		if ((etbTpsErrorCounter > 10) {
+			etbTpsErrorCounter = 0;
+		}
 
 		hadTpsError = isTpsError;
 
