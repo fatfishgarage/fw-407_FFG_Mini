@@ -2182,7 +2182,7 @@
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
 #define ts_show_wbo_canbus_set_type false
-#define TS_SIGNATURE "rusEFI main.2026.05.14.FFG_Mini.1927730718"
+#define TS_SIGNATURE "rusEFI main.2026.05.15.FFG_Mini.1927730718"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
