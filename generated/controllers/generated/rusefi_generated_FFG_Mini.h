@@ -1311,6 +1311,7 @@
 #define HPFP_LOBE_PROFILE_SIZE 16
 #define HPFP_TARGET_SIZE 10
 #define HW_EVENT_TYPES 4
+#define i2c_bus_e_auto_enum 0="I2C_NONE",1="I2C_BUS_1",2="I2C_BUS_2",3="I2C_BUS_3",4="I2C_BUS_4"
 #define i2c_bus_e_I2C_BUS_1 1
 #define i2c_bus_e_I2C_BUS_2 2
 #define i2c_bus_e_I2C_BUS_3 3
@@ -1646,9 +1647,10 @@
 #define SentInput_INPUT6 6
 #define SentInput_INPUT7 7
 #define SentInput_NONE 0
+#define show_default_engine_type false
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 179758685
+#define SIGNATURE_HASH 2774936672
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -2285,6 +2287,7 @@
 #define ts_show_vr_threshold_all false
 #define ts_show_vr_threshold_pins true
 #define ts_show_vvl_control true
+#define ts_show_vvt_frequency false
 #define ts_show_vvt_output true
 #define ts_show_vvt_output_pin true
 #define ts_show_wall_wetting true
@@ -2293,7 +2296,7 @@
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
 #define ts_show_wbo_canbus_set_type false
-#define TS_SIGNATURE "rusEFI main.2026.09.26.FFG_Mini.179758685"
+#define TS_SIGNATURE "rusEFI main.2026.09.27.FFG_Mini.2774936672"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
